@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@600&display=swap');
+
+body{
+    background-image: url("mustacheBackground.jpg");
+}
+
+#title{
+    background-color: rgb(28, 138, 28);
+    width: fit-content;
+    padding: 15px;
+    color: white;
+    box-shadow: 0 0 10px black;
+    border: 3px solid black;
+    letter-spacing: 3px;
+}
+
+
+#snapshot{
+    background-color: rgb(65, 188, 230);
+    color: black;
+    padding: 15px;
+    font-size: 20px;
+    font-family: 'Work Sans', sans-serif;
+    cursor: pointer;
+    border-radius: 25px;
+}
+
+#filter_select{
+    padding: 15px;
+    color: white;
+    font-weight: bolder;
+    font-size: 18px;
+    background-color: crimson;
+    text-shadow: 10px;
+}
+
+
+#filter_select:hover{
+    border: 2px solid white;
+    transition: 0.2s;
+}
+
+
+label{
+    background-color: black;
+    color: white;
+    padding: 7px;
+}
+
+
+canvas{
+    border: 3px solid black;
+    margin-top: 300px;
+}
